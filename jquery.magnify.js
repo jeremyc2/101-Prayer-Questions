@@ -75,9 +75,6 @@
             });
           },
           moveLens = function(e) {
-            if(mobile) {
-              return;
-            }
             // Reinitialize if image initially hidden
             if (!nImageHeight) {
               refresh();
