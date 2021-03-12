@@ -19,6 +19,7 @@
 var $zoom;
     $(document).ready(function() {
         document.body.style.margin = "0";
+        document.body.style.overflow = "hidden";
         // Initiate magnification powers
         $zoom = $('.zoom').magnify({
             afterLoad: function() {
