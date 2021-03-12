@@ -11,3 +11,19 @@
     integrity="sha512-YKxHqn7D0M5knQJO2xKHZpCfZ+/Ta7qpEHgADN+AkY2U2Y4JJtlCEHzKWV5ZE87vZR3ipdzNJ4U/sfjIaoHMfw==" 
     crossorigin="anonymous"></script>
 <!-- https://thdoan.github.io/magnify/ -->
+<img src="101%20Prayer%20Questions.svg" 
+    alt="101 Questions" class="zoom"
+    style="width: 100vw; height: 100vh;"
+    data-magnify-src="101%20Prayer%20Questions.svg">
+<script>
+var $zoom;
+    $(document).ready(function() {
+        document.body.style.margin = "0";
+        // Initiate magnification powers
+        $zoom = $('.zoom').magnify({
+            afterLoad: function() {
+                console.log('Magnification powers activated!');
+            }
+        });
+    });
+</script>
